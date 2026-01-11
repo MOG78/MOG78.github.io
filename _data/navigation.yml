@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: "Individual Projects"
-    url: /portfolio/
   - title: "Portfolio Archive"
-    url: /_pages/about
+    url: /portfolio/
   - title: "Academic Research"
     url: /_pages/about
   - title: "About"
