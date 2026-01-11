@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Mona Gerges is a biomedical engineer with a background in data processing, analysis, and fabrication tools. She enjoys working on hands-on, interdisciplinary projects aimed at translational medical advancements. ."
+excerpt: "Mona Gerges is a biomedical engineer with a background in data processing, analysis, and fabrication tools. She enjoys working on hands-on, interdisciplinary projects aimed at translational medical advancements."
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
