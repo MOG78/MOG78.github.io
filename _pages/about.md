@@ -1,31 +1,43 @@
 ---
 
-title: "About David Florian"
+title: "About Mona Gerges"
 
 ---
 
+#### I am seeking a PhD or research assistant position, with a strong foundation in biomedical engineering and hands-on experience in interdisciplinary research.
+
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
-
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BE: Biomedical Engineering
+  * Minors: Data Science, Scientific Computing, Digital Fabrication
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+### Programming Languages
+* Python
+* R
+* MATLAB
+* Java
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+### Software and Tools
+* SolidWorks
+* Autodesk Fusion 360
+* ImageJ
+* NIS-Elements
+* LabVIEW
+* Linux
+* NetLogo
+* Imaris
 
-## Press 
+### Laboratory & Engineering Techniques
+* 3D Printing (FDM)
+* Soldering
+* Breadboarding
+* Basic Machining
+* Cell Culture
+
 
 The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
 
-<img src="/assets/img/Mona_Gerges_Headshot.jpg" alt="Mona Gerges" style="width:200px;"/>
+<img src="/assets/img/Mona_Gerges_Headshot.JPG" alt="Mona Gerges" style="width:200px;"/>
