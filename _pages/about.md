@@ -4,7 +4,7 @@ title: "About Mona Gerges"
 
 ---
 
-#### I am seeking research assistant position, with a strong foundation in biomedical engineering and hands-on experience in interdisciplinary research.
+#### *I have a strong foundation in biomedical engineering and hands-on experience in interdisciplinary research, and I am seeking a research assistant role*
 
 ## Education
 
@@ -39,4 +39,5 @@ title: "About Mona Gerges"
 
 ## Publications
 * Contributed to the publication, "Impaired Endosome Maturation Mediates Tubular Proteinuria in Dent Disease Cell Culture and Mouse Models," in the [Journal American Society of Nephrology](https://journals.lww.com/jasn/fulltext/2023/04000/impaired_endosome_maturation_mediates_tubular.13.aspx)
+
 <img src="/assets/img/Mona_Gerges_Headshot.JPG" alt="Mona Gerges" style="width:200px;"/>
