@@ -4,7 +4,7 @@ title: "About Mona Gerges"
 
 ---
 
-#### I am seeking a PhD or research assistant position, with a strong foundation in biomedical engineering and hands-on experience in interdisciplinary research.
+#### I am seeking research assistant position, with a strong foundation in biomedical engineering and hands-on experience in interdisciplinary research.
 
 ## Education
 
@@ -31,13 +31,12 @@ title: "About Mona Gerges"
 * Imaris
 
 ### Laboratory & Engineering Techniques
-* 3D Printing (FDM)
+* 3D Printing
 * Soldering
 * Breadboarding
 * Basic Machining
 * Cell Culture
 
-
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
-
+## Publications
+* Contributed to the publication, "Impaired Endosome Maturation Mediates Tubular Proteinuria in Dent Disease Cell Culture and Mouse Models," in the [Journal American Society of Nephrology](https://journals.lww.com/jasn/fulltext/2023/04000/impaired_endosome_maturation_mediates_tubular.13.aspx)
 <img src="/assets/img/Mona_Gerges_Headshot.JPG" alt="Mona Gerges" style="width:200px;"/>
