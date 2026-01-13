@@ -21,13 +21,14 @@ syringe. As the lead screw rotates and the nut traverses along the screw, the pl
 entire mechanical syringe pump assembly rests on a custom-designed electronic enclosure that holds all the necessary electronic components. It also features user-controlled buttons and displays for customization and control. 
 
 
+
+### CAD Model
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811642fa9b14f56ac7c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
-
-### CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811642fa9b14f56ac7c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Real-life Image of Syringe Pump Assembly
 
