@@ -2,13 +2,11 @@
 title: "Syringe Pump"
 excerpt: "A DIY programmable syringe pump that is compatible with 10 mL and 20 mL syringes, reaching maximum flow rates for each syringe at 1.24 mL/s and 2.2 mL/s, respectively."
 header:
-  image: /assets/img/LF3DP-Banner-2.jpg
+  image: /assets/img/RealImageSyringePump.jpg
   teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
-   
+  - image_path: /assets/img/cad_rendering.png
+  - image_path: /assets/img/header_circuitsurfers.jpg
 ---
 
 
@@ -23,14 +21,13 @@ To operate the syringe pump at a given flow rate, first input the syringe size a
 the wall outlet. Ensure the lid of the enclosure is properly secured down, and the syringe is placed properly in the pump. If slight adjustments to the carriage position need to be made, do so with the forward and reverse buttons on the control panel. Once the user is ready to dispense, click the start/stop button once and the syringe pump will begin operating at your desired flow rate. The LED will turn green when in motion. To slow the constant flow rate of the syringe pump, turn the potentiometer knob counterclockwise. When the user has dispensed the desired amount of fluid, press the start/stop button again to pause the motion of the carriage, the LED should turn yellow when paused. If the pump is allowed to dispense the total volume of the syringe, the pump will automatically stop operating and the LED will turn red. Use the forward and reverse buttons to readjust your carriage to the desired position, then unplug when finished operating. 
 
 
-
-
 ### CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811642fa9b14f56ac7c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 ### Real-life Image of Syringe Pump Assembly
-
+<img src="/assets/img/RealImageSyringePump.jpg" alt="Real Image of Syringe Pump" style="width:200px;"/>
+*Figure 1. Real-life Image of Syringe Pump Assembly*
 
 
 ### Electrical Design 
@@ -39,15 +36,17 @@ quality. The enclosure features removable panels that seamlessly slide into the 
 Inside the electronics enclosure, there are designated spaces dimensioned to hold the power supply, Arduino, and breadboard. The power supply and breadboard each are surrounded by walled sections, high enough for secure placement, but not obstructing any required access points. This prevents these components from shifting around when the assembly is picked up or moved. The Arduino is sitting on a raised platform that uses rods to secure it through its mounting holes, elevating the Arduino to lie flat with its backside pins protruding beneath it. A
 pathway extends from the power supply holder through and between the Arduino and breadboard, allowing space for the power cord to run flat, avoiding bends and minimizing potential stresses. Proximity between the Arduino placement and breadboard allows for minimum wiring length and a clean electrical setup. Figure 2 below displays this interior design for the electronics.
 
+<img src="/assets/img/electrical_wiring_diagram.jpg" alt="Electrical Wiring Diagram" style="width:200px;"/>
+*Figure 2. Electrical Wiring Diagram*
 
 # Materials and Components
 ### Off-the-Shelf Parts
-The following parts were obtained to assemble the Syringe-Pump:
+The following off-the-sehfl parts are required for assembly of the Syringe-Pump:
 
 | Item                        | Quantity |
 | :-------------------------: | :------: |
 | M3 × 10 mm bolt             |       10 |
-| M5 × 8 mm bolt              |        4 |
+| M5 × 8 mm bolt              |        6 |
 | M5 Tree Nut                 |        6 |
 | TR8×8 Nut                   |        1 |
 | Lock Collar – Lead Screw    |        2 |
@@ -58,19 +57,32 @@ The following parts were obtained to assemble the Syringe-Pump:
 | Flexible Coupler            |        1 |
 | Lock Collar – Linear Rod    |        2 |
 | F688ZZ Flanged Ball Bearing |        1 |
-| Start Button                |        1 |
-| Forward / Back Button       |        2 |
+| M10 Start Button            |        1 |
+| 0.5" Forward / Back Button  |        2 |
 | RGB Common Cathode LED      |        1 |
 | NEMA-17 Motor               |        1 |
 | 10 kΩ Potentiometer         |        1 |
 | AC-DC Power Supply          |        1 |
 | Arduino Uno                 |        1 |
 | Limit Switch                |        1 |
-
+| 2048 Aluminum Extrusion     |        1 |
+| Breadboard                  |        1 |
 
 
 ### Custom Parts 
 
+The following custom parts were designed in Fusion360 and printed using ABS filament on a Voron Filament 3D Printer: 
+
+| Item                        | Quantity |
+| :-------------------------: | :------: |
+| Syringe Hub Support         |        1 |
+| Syringe Barrel Support      |        1 |
+| Motor Mounting Plate        |        1 |
+| Extra Support               |        1 |
+| Enclosure Front Panel       |        1 |
+| Enclosure Left Panel        |        1 |
+| Enclosure Right Panel       |        1 |
+| Enclosure Lid               |        1 |
 
 
 # Code 
