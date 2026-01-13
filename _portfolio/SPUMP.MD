@@ -2,11 +2,11 @@
 title: "Syringe Pump"
 excerpt: "A DIY programmable syringe pump that is compatible with 10 mL and 20 mL syringes, reaching maximum flow rates for each syringe at 1.24 mL/s and 2.2 mL/s, respectively."
 header:
-  image: /assets/img/RealImageSyringePump.jpg
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  image: /assets/img/header_circuitsurfers.jpg
+  teaser: /assets/img/RealImageSyringePump.jpg
 gallery:
   - image_path: /assets/img/cad_rendering.png
-  - image_path: /assets/img/header_circuitsurfers.jpg
+  - image_path: /assets/img/interior_electronics.jpg
 ---
 
 
@@ -27,6 +27,7 @@ the wall outlet. Ensure the lid of the enclosure is properly secured down, and t
 
 ### Real-life Image of Syringe Pump Assembly
 <img src="/assets/img/RealImageSyringePump.jpg" alt="Real Image of Syringe Pump" style="width:200px;"/>
+
 *Figure 1. Real-life Image of Syringe Pump Assembly*
 
 
@@ -37,6 +38,7 @@ Inside the electronics enclosure, there are designated spaces dimensioned to hol
 pathway extends from the power supply holder through and between the Arduino and breadboard, allowing space for the power cord to run flat, avoiding bends and minimizing potential stresses. Proximity between the Arduino placement and breadboard allows for minimum wiring length and a clean electrical setup. Figure 2 below displays this interior design for the electronics.
 
 <img src="/assets/img/electrical_wiring_diagram.jpg" alt="Electrical Wiring Diagram" style="width:200px;"/>
+
 *Figure 2. Electrical Wiring Diagram*
 
 # Materials and Components
@@ -88,4 +90,4 @@ The following custom parts were designed in Fusion360 and printed using ABS fila
 # Code 
 The syringe pump apparatus is programmed using an Arduino Uno microcontroller to control a stepper motor and a light-emitting diode (LED) with a three-button system. The code for the system can be found [here.](https://github.com/MOG78/SyringePumpCode/blob/main/ArduinoCode)
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="Syringe Pump CAD Gallery" %}
