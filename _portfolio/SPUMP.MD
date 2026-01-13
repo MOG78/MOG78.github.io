@@ -43,7 +43,6 @@ the wall outlet. Ensure the lid of the enclosure is properly secured down, and t
 
 ### Custom Parts 
 
-<br>
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
