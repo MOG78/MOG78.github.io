@@ -2,8 +2,6 @@
 main:
   - title: "Portfolio Archive"
     url: /portfolio/
-  - title: "Academic Research"
-    url: /_pages/about
   - title: "About"
     url: /_pages/about
   # - title: "Sample Posts"
