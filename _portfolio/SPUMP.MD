@@ -31,6 +31,10 @@ entire mechanical syringe pump assembly rests on a custom-designed electronic en
 | git diff     | git diff       | git diff      |
 
 ### Real-life Image of Syringe Pump Assembly
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 
 ### Electrical Design 
@@ -38,6 +42,12 @@ The electronic enclosure was designed with a focus on adaptability and optimal p
 quality. The enclosure features removable panels that seamlessly slide into the base, secured by corner slots. The lid fits into an inset in the corner supports, locking the side panels in place. Heat-set threaded inserts on the corner supports allow for easy fastening of the lid onto the base, ensuring complete security and repeatable removal. To enhance user experience, the enclosure includes clearly labeled buttons and a power cord insert, providing users with defined controls. The removable side panels provide numerous benefits. This design approach facilitates easy iteration and adjustment of designs allowing for swift corrections or improvements to specific panels without reprinting the entire enclosure. Additionally, the design allows for the panels to be printed lying flat on the print bed, enhancing strength in the z-direction and ensuring better print quality for holes and engraved text.
 Inside the electronics enclosure, there are designated spaces dimensioned to hold the power supply, Arduino, and breadboard. The power supply and breadboard each are surrounded by walled sections, high enough for secure placement, but not obstructing any required access points. This prevents these components from shifting around when the assembly is picked up or moved. The Arduino is sitting on a raised platform that uses rods to secure it through its mounting holes, elevating the Arduino to lie flat with its backside pins protruding beneath it. A
 pathway extends from the power supply holder through and between the Arduino and breadboard, allowing space for the power cord to run flat, avoiding bends and minimizing potential stresses. Proximity between the Arduino placement and breadboard allows for minimum wiring length and a clean electrical setup. Figure 2 below displays this interior design for the electronics.
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
 
 ### User Operation 
 To operate the syringe pump at a given flow rate, first input the syringe size and desired flow rate into the Arduino code. Upload the code to the Arduino, then plug the syringe pump into
