@@ -37,10 +37,10 @@ the wall outlet. Ensure the lid of the enclosure is properly secured down, and t
 # Materials and Components
 ### Off-the-Shelf Parts
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 ### Custom Parts 
 
