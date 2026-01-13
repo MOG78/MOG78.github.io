@@ -3,7 +3,7 @@ title: "Mona Gerges"
 layout: splash
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.2"
   overlay_image: /assets/img/vanderbilt-university.jpg
   actions:
     - label: "See Projects"
@@ -12,7 +12,7 @@ excerpt: "Mona is a biomedical engineer with a background in data processing, an
 feature_row:
   - image_path: assets/img/NeuronImage.jpg
     alt: "Segmented Neuron"
-    title: "Segmented Neuron"
+    title: "Research Project Artifcat: Segmented Neuron"
     excerpt: "Expertise in image processing and analysis."
   - image_path: assets/img/vanderbilt_biophotonics_center_cover.jpg
     alt: "Vanderbilt Biophotonics Center"
