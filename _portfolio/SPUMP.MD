@@ -36,8 +36,13 @@ the wall outlet. Ensure the lid of the enclosure is properly secured down, and t
 
 # Materials and Components
 ### Off-the-Shelf Parts
+| Name  | Age |  City    |
+|-------|-----|-------|
+| Alice | 25  | New York |
+| Bob   | 30  | London   |
 
 ### Custom Parts 
+
 
 # Code 
 The syringe pump apparatus is programmed using an Arduino Uno microcontroller to control a stepper motor and a light-emitting diode (LED) with a three-button system. The code for the system can be found [here.](https://github.com/MOG78/SyringePumpCode/blob/main/ArduinoCode)
