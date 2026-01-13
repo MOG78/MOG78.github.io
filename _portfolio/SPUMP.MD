@@ -11,6 +11,12 @@ gallery:
    
 ---
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+
 # Features
 ### Design Overview
 The syringe pump operates through the use of a Nema 17 Stepper motor, which is connected to a lead screw. A 3D-printed carriage holds a nut that is coupled to the plunger of the
@@ -37,10 +43,6 @@ the wall outlet. Ensure the lid of the enclosure is properly secured down, and t
 # Materials and Components
 ### Off-the-Shelf Parts
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
 
 ### Custom Parts 
 
