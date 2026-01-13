@@ -3,7 +3,7 @@ title: "Mona Gerges"
 layout: splash
 header:
   overlay_color: "#000"
-  overlay_filter: "0.2"
+  overlay_filter: "0.5"
   overlay_image: /assets/img/university-logo.png
   actions:
     - label: "See Projects"
@@ -20,7 +20,7 @@ feature_row:
     excerpt: "Several past research experiences across four different labs."
   - image_path: assets/img/RealImageSyringePump.jpg
     title: "Rapid Prototyping Course: DIY Syringe Pump"
-    excerpt: "Currently pursuing a minor in digital fabrication. "
+    excerpt: "Currently pursuing a minor in digital fabrication."
 ---
 
 {% include feature_row %}
