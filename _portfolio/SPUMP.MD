@@ -45,6 +45,7 @@ pathway extends from the power supply holder through and between the Arduino and
 The following parts were obtained to assemble the Syringe-Pump:
 
 | Item                        | Quantity |
+| :-------------------------: | :------: |
 | M3 × 10 mm bolt             |       10 |
 | M5 × 8 mm bolt              |        4 |
 | M5 Tree Nut                 |        6 |
