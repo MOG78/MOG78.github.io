@@ -12,7 +12,7 @@ gallery:
 
 ## User Operation 
 
-<img src="/assets/img/RealImageSyringePump.jpg" alt="Real Image of Syringe Pump" style="width:600px;"/>
+<img src="/assets/img/RealImageSyringePump.jpg" alt="Real Image of Syringe Pump" style="width:400px;"/>
 
 *Figure 1. Real-life Image of Syringe Pump Assembly*
 
@@ -31,7 +31,7 @@ quality. The enclosure features removable panels that seamlessly slide into the 
 Inside the electronics enclosure, there are designated spaces dimensioned to hold the power supply, Arduino, and breadboard. The power supply and breadboard each are surrounded by walled sections, high enough for secure placement, but not obstructing any required access points. This prevents these components from shifting around when the assembly is picked up or moved. The Arduino is sitting on a raised platform that uses rods to secure it through its mounting holes, elevating the Arduino to lie flat with its backside pins protruding beneath it. A
 pathway extends from the power supply holder through and between the Arduino and breadboard, allowing space for the power cord to run flat, avoiding bends and minimizing potential stresses. Proximity between the Arduino placement and breadboard allows for minimum wiring length and a clean electrical setup. Figure 2 below displays this interior design for the electronics.
 
-<img src="/assets/img/electrical_wiring_diagram.jpg" alt="Electrical Wiring Diagram" style="width:600px;"/>
+<img src="/assets/img/electrical_wiring_diagram.jpg" alt="Electrical Wiring Diagram" style="width:400px;"/>
 
 *Figure 2. Electrical Wiring Diagram*
 
