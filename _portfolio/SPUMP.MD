@@ -10,11 +10,16 @@ gallery:
 ---
 
 
-# User Operation 
+## User Operation 
+
+<img src="/assets/img/RealImageSyringePump.jpg" alt="Real Image of Syringe Pump" style="width:400px;"/>
+
+*Figure 1. Real-life Image of Syringe Pump Assembly*
+
 To operate the syringe pump at a given flow rate, first input the syringe size and desired flow rate into the Arduino code. Upload the code to the Arduino, then plug the syringe pump into
 the wall outlet. Ensure the lid of the enclosure is properly secured down, and the syringe is placed properly in the pump. If slight adjustments to the carriage position need to be made, do so with the forward and reverse buttons on the control panel. Once the user is ready to dispense, click the start/stop button once and the syringe pump will begin operating at your desired flow rate. The LED will turn green when in motion. To slow the constant flow rate of the syringe pump, turn the potentiometer knob counterclockwise. When the user has dispensed the desired amount of fluid, press the start/stop button again to pause the motion of the carriage, the LED should turn yellow when paused. If the pump is allowed to dispense the total volume of the syringe, the pump will automatically stop operating and the LED will turn red. Use the forward and reverse buttons to readjust your carriage to the desired position, then unplug when finished operating. 
 
-# Design Features
+## Design Features
 ### Mechanica Design Overview
 The syringe pump operates through the use of a Nema 17 Stepper motor, which is connected to a lead screw. A 3D-printed carriage holds a nut that is coupled to the plunger of the
 syringe. As the lead screw rotates and the nut traverses along the screw, the plunger is pushed forward, expelling a proportional volume of liquid from the syringe. A linear rod secures the carriage, preventing side-to-side motion, ensuring that it does not rotate with the lead screw, and instead only has linear motion. A motor mounting plate holds the stepper motor at the correct height. Additionally, a support piece is used to prop up the barrel of the syringe, supporting both 20 mLand 10 mLsyringes. An end support functions to secure the lead screw and linear rod, while also propping up the nozzle of the syringe during use. Each support piece is secured to an aluminum extrusion using tee-nuts and M5 bolts. The
@@ -35,12 +40,7 @@ pathway extends from the power supply holder through and between the Arduino and
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811642fa9b14f56ac7c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-### Real-life Image of Syringe Pump Assembly
-<img src="/assets/img/RealImageSyringePump.jpg" alt="Real Image of Syringe Pump" style="width:400px;"/>
-
-*Figure 1. Real-life Image of Syringe Pump Assembly*
-
-# Materials and Components
+## Materials and Components
 ### Off-the-Shelf Parts
 The following off-the-sehfl parts are required for assembly of the Syringe-Pump:
 
@@ -86,7 +86,7 @@ The following custom parts were designed in Fusion360 and printed using ABS fila
 | Enclosure Lid               |        1 |
 
 
-# Code 
+## Code 
 The syringe pump apparatus is programmed using an Arduino Uno microcontroller to control a stepper motor and a light-emitting diode (LED) with a three-button system. The code for the system can be found [here.](https://github.com/MOG78/SyringePumpCode/blob/main/ArduinoCode)
 
 {% include gallery caption="Syringe Pump CAD Gallery" %}
