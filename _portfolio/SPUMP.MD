@@ -31,6 +31,7 @@ entire mechanical syringe pump assembly rests on a custom-designed electronic en
 | git diff     | git diff       | git diff      |
 
 ### Real-life Image of Syringe Pump Assembly
+i am adding text to see if the table renders
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
