@@ -12,31 +12,25 @@ gallery:
 ---
 
 
-
-
 # Features
 ### Design Overview
 The syringe pump operates through the use of a Nema 17 Stepper motor, which is connected to a lead screw. A 3D-printed carriage holds a nut that is coupled to the plunger of the
 syringe. As the lead screw rotates and the nut traverses along the screw, the plunger is pushed forward, expelling a proportional volume of liquid from the syringe. A linear rod secures the carriage, preventing side-to-side motion, ensuring that it does not rotate with the lead screw, and instead only has linear motion. A motor mounting plate holds the stepper motor at the correct height. Additionally, a support piece is used to prop up the barrel of the syringe, supporting both 20 mLand 10 mLsyringes. An end support functions to secure the lead screw and linear rod, while also propping up the nozzle of the syringe during use. Each support piece is secured to an aluminum extrusion using tee-nuts and M5 bolts. The
 entire mechanical syringe pump assembly rests on a custom-designed electronic enclosure that holds all the necessary electronic components. It also features user-controlled buttons and displays for customization and control. 
 
+### User Operation 
+To operate the syringe pump at a given flow rate, first input the syringe size and desired flow rate into the Arduino code. Upload the code to the Arduino, then plug the syringe pump into
+the wall outlet. Ensure the lid of the enclosure is properly secured down, and the syringe is placed properly in the pump. If slight adjustments to the carriage position need to be made, do so with the forward and reverse buttons on the control panel. Once the user is ready to dispense, click the start/stop button once and the syringe pump will begin operating at your desired flow rate. The LED will turn green when in motion. To slow the constant flow rate of the syringe pump, turn the potentiometer knob counterclockwise. When the user has dispensed the desired amount of fluid, press the start/stop button again to pause the motion of the carriage, the LED should turn yellow when paused. If the pump is allowed to dispense the total volume of the syringe, the pump will automatically stop operating and the LED will turn red. Use the forward and reverse buttons to readjust your carriage to the desired position, then unplug when finished operating. 
+
+
 
 
 ### CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811642fa9b14f56ac7c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
 
 ### Real-life Image of Syringe Pump Assembly
-i am adding text to see if the table renders
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
 
 
 ### Electrical Design 
@@ -45,22 +39,37 @@ quality. The enclosure features removable panels that seamlessly slide into the 
 Inside the electronics enclosure, there are designated spaces dimensioned to hold the power supply, Arduino, and breadboard. The power supply and breadboard each are surrounded by walled sections, high enough for secure placement, but not obstructing any required access points. This prevents these components from shifting around when the assembly is picked up or moved. The Arduino is sitting on a raised platform that uses rods to secure it through its mounting holes, elevating the Arduino to lie flat with its backside pins protruding beneath it. A
 pathway extends from the power supply holder through and between the Arduino and breadboard, allowing space for the power cord to run flat, avoiding bends and minimizing potential stresses. Proximity between the Arduino placement and breadboard allows for minimum wiring length and a clean electrical setup. Figure 2 below displays this interior design for the electronics.
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-
-### User Operation 
-To operate the syringe pump at a given flow rate, first input the syringe size and desired flow rate into the Arduino code. Upload the code to the Arduino, then plug the syringe pump into
-the wall outlet. Ensure the lid of the enclosure is properly secured down, and the syringe is placed properly in the pump. If slight adjustments to the carriage position need to be made, do so with the forward and reverse buttons on the control panel. Once the user is ready to dispense, click the start/stop button once and the syringe pump will begin operating at your desired flow rate. The LED will turn green when in motion. To slow the constant flow rate of the syringe pump, turn the potentiometer knob counterclockwise. When the user has dispensed the desired amount of fluid, press the start/stop button again to pause the motion of the carriage, the LED should turn yellow when paused. If the pump is allowed to dispense the total volume of the syringe, the pump will automatically stop operating and the LED will turn red. Use the forward and reverse buttons to readjust your carriage to the desired position, then unplug when finished operating. 
-
 
 # Materials and Components
 ### Off-the-Shelf Parts
+The following parts were obtained to assemble the Syringe-Pump:
+
+| Item                        | Quantity |
+| M3 × 10 mm bolt             |       10 |
+| M5 × 8 mm bolt              |        4 |
+| M5 Tree Nut                 |        6 |
+| TR8×8 Nut                   |        1 |
+| Lock Collar – Lead Screw    |        2 |
+| LM8UU Linear Bearing        |        1 |
+| A4988 Stepper Driver        |        1 |
+| Linear Rod – 8 mm × 200 mm  |        1 |
+| Lead Screw – TR8×8 × 250 mm |        1 |
+| Flexible Coupler            |        1 |
+| Lock Collar – Linear Rod    |        2 |
+| F688ZZ Flanged Ball Bearing |        1 |
+| Start Button                |        1 |
+| Forward / Back Button       |        2 |
+| RGB Common Cathode LED      |        1 |
+| NEMA-17 Motor               |        1 |
+| 10 kΩ Potentiometer         |        1 |
+| AC-DC Power Supply          |        1 |
+| Arduino Uno                 |        1 |
+| Limit Switch                |        1 |
+
 
 
 ### Custom Parts 
+
 
 
 # Code 
