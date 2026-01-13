@@ -1,26 +1,26 @@
 ---
-title: "Example Web Page"
+title: "Mona Gerges"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: /assets/img/vanderbilt-university.jpg
   actions:
-    - label: "My Projects"
+    - label: "See Projects"
       url: "/portfolio/"
-excerpt: "Mona Gerges is a biomedical engineer with a background in data processing, analysis, and fabrication tools. She enjoys working on hands-on, interdisciplinary projects aimed at translational medical advancements."
+excerpt: "Mona is a biomedical engineer with a background in data processing, analysis, and fabrication tools. She enjoys working on hands-on, interdisciplinary projects aimed at translational medical advancements."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/NeuronImage.jpg
+    alt: "Segmented Neuron"
+    title: "Segmented Neuron"
+    excerpt: "Expertise in image processing and analysis."
+  - image_path: assets/img/vanderbilt_biophotonics_center_cover.jpg
+    alt: "Vanderbilt Biophotonics Center"
+    title: "Current Research Assistant at the Vanderbilt Biophotonics Center"
+    excerpt: "Several past research experiences across four different labs."
+  - image_path: assets/img/RealImageSyringePump.jpg
+    title: "DIY Syringe Pump"
+    excerpt: "Currently pursuing a minor in digital fabrication. "
 ---
 
 {% include feature_row %}
