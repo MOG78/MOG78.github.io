@@ -4,7 +4,7 @@ title: "About Mona Gerges"
 
 ---
 
-#### *I have a strong foundation in biomedical engineering and hands-on experience in interdisciplinary research. I am seeking a research assistant or Research and Development role.*
+*I have a strong foundation in biomedical engineering and hands-on experience in interdisciplinary research. I am seeking a research assistant or Research and Development role.*
 
 ## Education
 
