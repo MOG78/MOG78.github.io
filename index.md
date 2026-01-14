@@ -14,7 +14,7 @@ feature_row:
     alt: "Vanderbilt Biophotonics Center"
     title: "Current Research Assistant at the Vanderbilt Biophotonics Center"
     excerpt: "I have several past research experiences across four different labs."
- - image_path: assets/img/NeuronImage.jpg
+  - image_path: assets/img/NeuronImage.jpg
     alt: "Segmented Neuron"
     title: "Research Project Artifact: Segmented Neuron"
     excerpt: "I have expertise in image processing and analysis."
