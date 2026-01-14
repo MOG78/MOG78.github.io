@@ -42,7 +42,7 @@ title: "About Mona Gerges"
 * October 2020 - Jully 2022: Student Researcher at the Renal Electrolyte Lab at the University of Pittsburgh
 * May 2023 - August 2023: Research Intern at the Rehab Neural Engineering Labs at the University of Pittsburgh
 * February 2024 - Present: Student Research Assistant at the Vanderbilt Biophotonics Center
-* June 2025 - August 2025: Student Resesearch Assistant at the Mechanics of Morphogenesis Lab at the University of Pittsburgh
+* June 2025 - August 2025: Student Research Assistant at the Mechanics of Morphogenesis Lab at the University of Pittsburgh
 
 ## Publications
 * Contributed to the publication, "Impaired Endosome Maturation Mediates Tubular Proteinuria in Dent Disease Cell Culture and Mouse Models," in the [Journal American Society of Nephrology](https://journals.lww.com/jasn/fulltext/2023/04000/impaired_endosome_maturation_mediates_tubular.13.aspx)
