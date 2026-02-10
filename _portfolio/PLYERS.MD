@@ -28,7 +28,7 @@ Other examples include parts with adjustable geometries, such as a [phone stand]
 
 <img src="/assets/img/shark.jpg" alt="print-in place shark" style="width:400px;"/>
 
-*Figure 2. 3D printed print-in-place fun shark*
+*Figure 2. 3D printed print-in-place fun/scary shark*
 
 
 For single-material parts, a standard FFF printer can be used, such as the Voron 3D printers in the digital fabrication lab. However, printing in-place, multimaterial parts requires a different type of 3D printer, such as one with dual fixed extruders or a tool-changing system. In order for materials to adhere properly during a multimaterial print, their surface energies, chemical compositions, and mechanical properties must be similar. Due to the differences between the flexible plastic (TPU) and the rigid plastics used in this project (PLA and PET-G), material-locking connections were instead implemented, as discussed further in the design discussion (David Florian-L03-Dual Extrusion, 2026). 
