@@ -1,6 +1,6 @@
 ---
 title: "Additive Manufacturing Project 1: Multimaterial Pliers"
-excerpt: "Functional pliers capable of picking up a resistor made of multiple materials."
+excerpt: "Functional pliers capable of picking up a resistor."
 header:
   image: /assets/img/horizontal_header.jpg
   teaser: /assets/img/final.jpg
@@ -20,12 +20,14 @@ Thingiverse forums provide practical examples of print-in-place parts. These inc
 
 
 <img src="/assets/img/parametric_hinge.jpg" alt="print-in" style="width:400px;"/>
+
 *Figure 1. 3D printed print-in-place functional hinge, with modifiable geometry*
 
 
 Other examples include parts with adjustable geometries, such as a [phone stand] (https://www.thingiverse.com/thing:3146835). There are also the fun print-in-place trinkets, such as articulated animal figurines. 
 
 <img src="/assets/img/shark.jpg.jpg" alt="print-in" style="width:400px;"/>
+
 *Figure 2. 3D printed print-in-place fun/shark*
 
 
@@ -50,6 +52,7 @@ The final breakdown of the specifications of the jaws are as follows:
 - Jaw Capacity: small, <5 mm parts
 
 <img src="/assets/img/plyer_ss_labels.jpg" alt="Labeled CAD Model" style="width:400px;"/>
+
 *Figure 3. Design Choices - Labeled CAD Model*
 
 #### Fastener and Offset 
@@ -62,6 +65,7 @@ Multiple tests were also printed in a single print iteration of the TPU 95A spri
 
 ##### TPU 95A 
 Default Voron 3D printer settings for TPU 95A, with the following changes: 
+
 | Setting | Rationale |
 |--------|-----------|
 | Print Nozzle: 0.6 mm | TPU, and flexible plastics in general, cannot be printed with a 0.4 mm nozzle. |
@@ -73,6 +77,7 @@ Default Voron 3D printer settings for TPU 95A, with the following changes:
 
 ##### PET-G  
 Default Voron 3D printer settings for PET-G, with the following changes:
+
 | Setting | Rationale |
 |--------|-----------|
 | Print Nozzle: 0.4 mm | Enabled finer geometries required for the interlocking features. |
