@@ -6,7 +6,7 @@ header:
   teaser: /assets/img/final.jpg
 gallery:
   - image_path: /assets/img/1.jpg
-  - image_path: /assets/img/2.png
+  - image_path: /assets/img/2.jpg
   - image_path: /assets/img/springs.jpg
   - image_path: /assets/img/final.jpg
 ---
@@ -63,7 +63,7 @@ However, for the remaining iterations, PET-G was used. This same offset resulted
 Multiple tests were also printed in a single print iteration of the TPU 95A spring, with varying infill densities and patterns (gallery image 3). Ultimately, a grid infill pattern with 18% infill was chosen. **The final breakdown of print settings were as follows:**
 
 
-##### TPU 95A 
+###### TPU 95A 
 Default Voron 3D printer settings for TPU 95A, with the following changes: 
 
 | Setting | Rationale |
@@ -75,7 +75,7 @@ Default Voron 3D printer settings for TPU 95A, with the following changes:
 | Infill Extrusion Width: 1.2 mm | The increased extrusion width strengthened the grid lines, especially for the small spring geometry, this improved structural strength. |
 
 
-##### PET-G  
+###### PET-G  
 Default Voron 3D printer settings for PET-G, with the following changes:
 
 | Setting | Rationale |
