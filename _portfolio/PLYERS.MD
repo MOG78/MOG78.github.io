@@ -16,7 +16,7 @@ gallery:
 
 The goal of this FFF project was to design functional pliers capable of picking up a resistor. A key design constraint was that the pliers needed to be composed of two thermoplastic materials, one rigid plastic and one flexible plastic, in order to produce the characteristic mechanical “squeezing” motion of the pliers. For this specific project, the components were printed separately. However, there is a technique known as **print-in-place**, in which parts are printed as a single assembly without any post-processing or manual assembly (Thingiverse Blog, 2024, Print-in-Place: A Beginner’s Guide).
 
-Thingiverse forums provide practical examples of print-in-place parts. These include components with folding mechanisms, such as a [parametric hinge] (https://www.thingiverse.com/thing:2187167) and a [folding wallet] (https://www.thingiverse.com/thing:123670). Print-in-place fabrication can be useful in manufacturing to reduce a step of assembly. 
+Thingiverse forums provide practical examples of print-in-place parts. These include components with folding mechanisms, such as a [parametric hinge](https://www.thingiverse.com/thing:2187167) and a [folding wallet](https://www.thingiverse.com/thing:123670). Print-in-place fabrication can be useful in manufacturing to reduce a step of assembly. 
 
 
 <img src="/assets/img/parametric_hinge.jpg" alt="print-in place hinge" style="width:400px;"/>
@@ -24,7 +24,7 @@ Thingiverse forums provide practical examples of print-in-place parts. These inc
 *Figure 1. 3D printed print-in-place functional hinge, with modifiable geometry*
 
 
-Other examples include parts with adjustable geometries, such as a [phone stand] (https://www.thingiverse.com/thing:3146835). There are also the fun print-in-place trinkets, such as articulated animal figurines. 
+Other examples include parts with adjustable geometries, such as a [phone stand](https://www.thingiverse.com/thing:3146835). There are also the fun print-in-place trinkets, such as articulated animal figurines. 
 
 <img src="/assets/img/shark.jpg" alt="print-in place shark" style="width:400px;"/>
 
