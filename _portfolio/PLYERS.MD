@@ -19,16 +19,16 @@ The goal of this FFF project was to design functional pliers capable of picking 
 Thingiverse forums provide practical examples of print-in-place parts. These include components with folding mechanisms, such as a [parametric hinge] (https://www.thingiverse.com/thing:2187167) and a [folding wallet] (https://www.thingiverse.com/thing:123670). Print-in-place fabrication can be useful in manufacturing to reduce a step of assembly. 
 
 
-<img src="/assets/img/parametric_hinge.jpg" alt="print-in" style="width:400px;"/>
+<img src="/assets/img/parametric_hinge.jpg" alt="print-in place hinge" style="width:400px;"/>
 
 *Figure 1. 3D printed print-in-place functional hinge, with modifiable geometry*
 
 
 Other examples include parts with adjustable geometries, such as a [phone stand] (https://www.thingiverse.com/thing:3146835). There are also the fun print-in-place trinkets, such as articulated animal figurines. 
 
-<img src="/assets/img/shark.jpg.jpg" alt="print-in" style="width:400px;"/>
+<img src="/assets/img/shark.jpg" alt="print-in place shark" style="width:400px;"/>
 
-*Figure 2. 3D printed print-in-place fun/shark*
+*Figure 2. 3D printed print-in-place fun shark*
 
 
 For single-material parts, a standard FFF printer can be used, such as the Voron 3D printers in the digital fabrication lab. However, printing in-place, multimaterial parts requires a different type of 3D printer, such as one with dual fixed extruders or a tool-changing system. In order for materials to adhere properly during a multimaterial print, their surface energies, chemical compositions, and mechanical properties must be similar. Due to the differences between the flexible plastic (TPU) and the rigid plastics used in this project (PLA and PET-G), material-locking connections were instead implemented, as discussed further in the design discussion (David Florian-L03-Dual Extrusion, 2026). 
@@ -86,6 +86,6 @@ Default Voron 3D printer settings for PET-G, with the following changes:
 
 ### 
 The pliers were ultimately functional and easy to manipulate, as displayed in below: 
-<img src="pliers_gif.gif" alt="Plier squeezing gif" style="width:600px;"/>
+<img src="/assets/img/pliers_gif.gif" alt="Plier squeezing gif" style="width:600px;"/>
 
 {% include gallery caption="The printed iterations of the pliers" %}
