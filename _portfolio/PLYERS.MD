@@ -1,12 +1,14 @@
 ---
-title: "Multimaterial Plyers"
-excerpt: "A DIY programmable syringe pump that is compatible with 10 mL and 20 mL syringes, reaching maximum flow rates for each syringe at 1.24 mL/s and 2.2 mL/s, respectively."
+title: "Additive Manufacturing Project 1: Multimaterial Plyers"
+excerpt: "Functional pliers made of multiple materials."
 header:
-  image: /assets/img/header_circuitsurfers.jpg
-  teaser: /assets/img/RealImageSyringePump.jpg
+  image: /assets/img/horizontal_header.jpg
+  teaser: /assets/img/final.jpg
 gallery:
-  - image_path: /assets/img/cad_rendering.png
-  - image_path: /assets/img/interior_electronics.png
+  - image_path: /assets/img/1.jpg
+  - image_path: /assets/img/2.png
+  - image_path: /assets/img/springs.jpg
+  - image_path: /assets/img/final.jpg
 ---
 
 
@@ -45,7 +47,7 @@ The final breakdown of the specifications of the jaws are as follows:
 
 #### Fastener and Offset 
 To ensure that the components could be assembled without losing connection, T-fasteners were used throughout the design iterations. One key parameter that was iterated on was the offset. The first iteration (gallery image 1) was printed using PLA. I learned that another feature that makes PLA a solid rapid prototyping material is that over-extrusion is less problematic, so my first iteration, with a 0.15 mm offset between the rigid components and the spring, was successful.
-However, for the remaining iterations, PET-G was used. This same offset resulted in components that did not fit together (gallery image 2). After discussing this issue with Dr. Florian, and considering both the tendency of PET-G toward over-extrusion and the fact that my fasteners (on the 1-2 mm scale) push the accuracy limits of a 0.6 mm nozzle, a 0.4 mm nozzle was used for the final iteration. This configuration worked well (final gallery image and header).
+However, for the remaining iterations, PET-G was used. This same offset resulted in components that did not fit together (gallery image 2). After discussing this issue with Dr. Florian, and considering both the tendency of PET-G toward over-extrusion and the fact that my fasteners (on the 1-2 mm scale) push the accuracy limits of a 0.6 mm nozzle, a 0.4 mm nozzle was used for the final iteration. This configuration worked well (gallery image 4 and header).
 
 #### TPU Spring Composition 
 Multiple tests were also printed in a single print iteration of the TPU 95A spring, with varying infill densities and patterns (gallery image 3). Ultimately, a grid infill pattern with 18% infill was chosen. **The final breakdown of print settings were as follows:**
