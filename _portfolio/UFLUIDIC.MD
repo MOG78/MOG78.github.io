@@ -118,7 +118,7 @@ The testing station operated at a total volumetric flow rate of 2.5 mL/min acros
 
 ### The Present Device
 
-<img src="/assets/img/pliers_gif.gif" alt="Plier squeezing gif" style="width:600px;"/>
+<img src="/assets/img/Video Project 3.mp4" alt="Mona's Microfluidic" style="width:600px;"/>
 ### Novel Solution from Other Classmate
 
 ### 
