@@ -2,8 +2,8 @@
 title: "Additive Manufacturing Project 2: Resin Printing of Microfluidic Molds "
 excerpt: "A pinch flow fractionation device."
 header:
-  image: /assets/img/horizontal_header.jpg
-  teaser: /assets/img/final.jpg
+  image: /assets/img/IMG_9357.jpg
+  teaser: /assets/img/IMG_9340.jpg
 gallery:
   - image_path: /assets/img/1.jpg
   - image_path: /assets/img/2.jpg
