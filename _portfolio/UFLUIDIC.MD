@@ -3,7 +3,7 @@ title: "Additive Manufacturing Project 2: Resin Printing of Microfluidic Molds "
 excerpt: "A pinch flow fractionation device."
 header:
   image: /assets/img/Header.png
-  teaser: /assets/img/IMG_9340.jpg
+  teaser: /assets/img/IMG_9340.jpeg
 ---
 
 
@@ -98,14 +98,14 @@ Resin-printed molds are treated becausepartially reactive species from the SLA r
 
 #### Final Casting 
 
-<img src="/assets/img/IMG_9340" alt="final casting" style="width:400px;"/>
+<img src="/assets/img/IMG_9340.jpeg" alt="final casting" style="width:400px;"/>
 
 *Figure 5. Final Casting of Microfluidic Used for Testing*
 
 ## Testing 
 The testing station operated at a total volumetric flow rate of 2.5 mL/min across the channels, with inlet channels set to 0.25 mL/min. The particle-containing inlet was held vertically to improve mixing and prevent bead settling, and beads were suspended in a 3% Tween solution to reduce aggregation and promote uniform dispersion. The full setup also included a camera for particle tracking, as shown in Figure 6.
 
-<img src="/assets/img/IMG_9357" alt="testing setup" style="width:400px;"/>
+<img src="/assets/img/IMG_9357.jpeg" alt="testing setup" style="width:400px;"/>
 
 *Figure 6. Testing Setup
 
