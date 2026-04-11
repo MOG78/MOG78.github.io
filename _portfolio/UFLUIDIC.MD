@@ -4,9 +4,6 @@ excerpt: "A pinch flow fractionation device."
 header:
   image: /assets/img/Header.png
   teaser: /assets/img/IMG_9340.jpg
-gallery:
-  - image_path: /assets/img/1.jpg
-  - image_path: /assets/img/2.jpg
 ---
 
 
@@ -122,6 +119,6 @@ The testing station operated at a total volumetric flow rate of 2.5 mL/min acros
 
 ### 
 ## Anaylsis and Discussion 
-
+In the present microfluidic device, particle trajectories show good separation immediately after exiting the pinched segment. The outlet angle was intentionally designed to be more gradual under the assumption that it would improve flow dynamics and maintain stable streamlines. However, previous studies suggest that a sharper transition (approximately 180°) may enhance separation performance [Source: Pinched Flow Fractionation] (http://www.dusseiller.ch/mis_wiki/images/d/de/Pinched_Flow_Fractionation.pdf). Although most large particles enter the large-particle outlet, a portion of the small particles also follow this path, suggesting that the hydraulic resistances and/or flow rates between the outlets are not sufficiently balanced. One potential improvement would be to further tune the outlet resistances to better bias small particles toward the small-particle outlet. In Kathleen’s design, a novel separator region is incorporated, where small particles quickly migrate toward the small outlet while large particles remain largely separated. Extending the length of this separator region could further amplify this effect and improve separation efficiency.
 
 {% include gallery caption="Gallery of Microfluidic Project" %}
