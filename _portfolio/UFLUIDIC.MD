@@ -15,12 +15,12 @@ gallery:
 ## Background
 
 
-A microfluidic device is a device that manipulates small volumes of liquids on the micrometer to nanometer scale through the use of networks of channels (Source: Microfluidic Devices and Their Applications] (https://link.springer.com/chapter/10.1007/978-3-662-54357-3_16). In biomedical engineering applications, microfluidic devices can be used for organ-on-a-chip systems, which simulate specific physiological conditions, or lab-on-a-chip systems that miniaturize laboratory processes.  One very interesting application is the use of a silicon spiral microfluidic chip for isolating circulating tumor cells from a patient’s blood sample by separating cells based on their size. Researchers and clinicians can analyze these cells to better understand tumor progression and metastasis without needing an invasive tumor biopsy (Source: Isolation of Circulating Tumor Cells from Peripheral Blood Samples](https://pmc.ncbi.nlm.nih.gov/articles/PMC8596232/).
+A microfluidic device is a device that manipulates small volumes of liquids on the micrometer to nanometer scale through the use of networks of channels [Source: Microfluidic Devices and Their Applications] (https://link.springer.com/chapter/10.1007/978-3-662-54357-3_16). In biomedical engineering applications, microfluidic devices can be used for organ-on-a-chip systems, which simulate specific physiological conditions, or lab-on-a-chip systems that miniaturize laboratory processes.  One very interesting application is the use of a silicon spiral microfluidic chip for isolating circulating tumor cells from a patient’s blood sample by separating cells based on their size. Researchers and clinicians can analyze these cells to better understand tumor progression and metastasis without needing an invasive tumor biopsy [Source: Isolation of Circulating Tumor Cells from Peripheral Blood Samples](https://pmc.ncbi.nlm.nih.gov/articles/PMC8596232/).
 
 #### Pinched Flow Fractionation 
-In addition to spiral microfluidic designs, several other separation techniques have been explored, including pinched flow fractionation (PFF). PFF describes a specific channel design in which one inlet introduces particle-free fluid and the other inlet contains particles. The particles then enter a pinched segment where the flow is confined, and the resulting force cause particles to align according to size as they enter a broadened section. The dominant mechanism responsible for separation is the laminar flow and streamline displacement due to channel geometry rather than a external force (Source: A comprehensive review of pinch flow fractionation in microfluidics](https://link.springer.com/chapter/10.1007/978-3-662-54357-3_16).
+In addition to spiral microfluidic designs, several other separation techniques have been explored, including pinched flow fractionation (PFF). PFF describes a specific channel design in which one inlet introduces particle-free fluid and the other inlet contains particles. The particles then enter a pinched segment where the flow is confined, and the resulting force cause particles to align according to size as they enter a broadened section. The dominant mechanism responsible for separation is the laminar flow and streamline displacement due to channel geometry rather than a external force [Source: A comprehensive review of pinch flow fractionation in microfluidics](https://link.springer.com/chapter/10.1007/978-3-662-54357-3_16).
 
-<img src="/assets/img/parametric_hinge.jpg" alt="print-in place hinge" style="width:400px;"/>
+<img src="/assets/img/Schematic-of-working-mechanism-of-pinched-flow-fractionation.png.jpg" alt="print-in place hinge" style="width:400px;"/>
 
 *Figure 1. Schematic of particle trajectory in PFF*
 
@@ -46,19 +46,19 @@ Y0 = (wp - D/2 + r) / (wb / wp)
 
 Each outlet was selected based on the midpoint of the particle trajectories, as seen in Figure 2A. The final calculated values are drawn on a schematic for clearer representation in Figure 2B. 
 
-<img src="/assets/img/parametric_hinge.jpg" alt="print-in place hinge" style="width:400px;"/>
+<img src="/assets/img/Fusion_Sketch_With_Calcs.png" alt="print-in place hinge" style="width:400px;"/>
 
-*Figure 1. Schematic of particle trajectory in PFF*
+*Figure 2A. Full Sketch - Fusion 360*
 
-<img src="/assets/img/parametric_hinge.jpg" alt="print-in place hinge" style="width:400px;"/>
+<img src="/assets/img/labled-particle-paths.png" alt="print-in place hinge" style="width:400px;"/>
 
-*Figure 1. Schematic of particle trajectory in PFF*
+*Figure 2B. Schematic of Particle Path Trajectories*
 
 ### Design Cpnsideration: On-Chip Flow Resistance Design for Outlet Balancing
 Flow imbalance in PFF occurs because each outlet  experiences different hydraulic resistance, causing fluid to redistribute away from the intended streamline separation. This is especially problematic for the buffer region, which carries the majority of flow, since unequal resistance or outlet sizing can force fluid into incorrect outlets.  To solve this, I increased resistance in the small and large particle outlet channels by extending their length and narrowing their geometry, while keeping the buffer outlet comparatively low-resistance so it naturally draws the highest fraction of flow.
 The resistance to flow for each channel is given by R, where conductance is 1/R. Since the height and width of every channel is constant, resistance is calculated based on trapezoidal entrance geometry and channel perimeter.
-R_rectangle = L / w
-R_trapezoid = L / w_avg,   where w_avg = (w1 + w2) / 2
+- R_rectangle = L / w
+- R_trapezoid = L / w_avg,   where w_avg = (w1 + w2) / 2
 
 #### Outlet Resistace and COnductance Calculations: 
 
@@ -69,7 +69,7 @@ R_trapezoid = L / w_avg,   where w_avg = (w1 + w2) / 2
 | Buffer Waste  | 0.515       | 5.59        | 6.11                 |
 
 Total Conductance = (1/72.01)+(1/13.46)+(1/6.11)=0.0139+0.0743+0.1637=0.2519
-Flow Percentages: 
+###### Flow Percentages: 
 - Small Flow: 5.5%
 - Large Flow: 29.5%
 - Buffer Flow: 65.0%
@@ -99,26 +99,30 @@ Resin-printed molds are treated becausepartially reactive species from the SLA r
 - Oxygen plasma treatment is applied to activate surfaces for bonding (Figure 4). 
 - The mold is bonded to the glass slide, followed by a bake for 15 - 30 minutes. 
 
-<img src="/assets/img/parametric_hinge.jpg" alt="print-in place hinge" style="width:400px;"/>
+<img src="/assets/img/Plasma-Treating-Image (3).jpg" alt="print-in place hinge" style="width:400px;"/>
 
-*Figure 1. Plasma Treatment*
+*Figure 4. Plasma Treatment*
 
 #### Final Casting 
 
-<img src="/assets/img/parametric_hinge.jpg" alt="print-in place hinge" style="width:400px;"/>
+<img src="/assets/img/IMG_9340" alt="print-in place hinge" style="width:400px;"/>
 
-*Figure 1. Schematic of particle trajectory in PFF*
+*Figure 5. Final Casting of Microfluidic Used for Testing*
 
 ## Testing 
-The testing station operated at a total volumetric flow rate of 2.5 mL/min across the channels, with inlet channels set to 0.25 mL/min. The particle-containing inlet was held vertically to improve mixing and prevent bead settling, and beads were suspended in a 3% Tween solution to reduce aggregation and promote uniform dispersion. The full setup also included a camera for particle tracking, as shown in Figure 5.
+The testing station operated at a total volumetric flow rate of 2.5 mL/min across the channels, with inlet channels set to 0.25 mL/min. The particle-containing inlet was held vertically to improve mixing and prevent bead settling, and beads were suspended in a 3% Tween solution to reduce aggregation and promote uniform dispersion. The full setup also included a camera for particle tracking, as shown in Figure 6.
+
+<img src="/assets/img/IMG_9357" alt="print-in place hinge" style="width:400px;"/>
+
+*Figure 6. Testing Setup
+
 ### The Present Device
 
+<img src="/assets/img/pliers_gif.gif" alt="Plier squeezing gif" style="width:600px;"/>
 ### Novel Solution from Other Classmate
 
 ### 
 ## Anaylsis and Discussion 
 
-The pliers were ultimately functional and easy to manipulate, as displayed in below: 
-<img src="/assets/img/pliers_gif.gif" alt="Plier squeezing gif" style="width:600px;"/>
 
-{% include gallery caption="The printed iterations of the pliers" %}
+{% include gallery caption="Gallery of Microfluidic Project" %}
