@@ -112,7 +112,7 @@ The testing station operated at a total volumetric flow rate of 2.5 mL/min acros
 ### The Present Device
 
 <video width="600" controls>
-  <source src="/assets/img/Video_Project_3.mp4" type="video/mp4">
+  <source src="/assets/imgassets/img/Video_Project_3.mp4" type="video/mp4">
 </video>
 
 ### Novel Solution from Other Classmate
