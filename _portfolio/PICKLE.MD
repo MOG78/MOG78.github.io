@@ -6,4 +6,8 @@ header:
   teaser: /assets/img/pickle-ball.jpg
 ---
 
-Attended pizza and pickle ball with paddle but will complete write-up ASAP
+### Attended pizza and pickle ball, finally learning the rules of the game.
+
+### Design
+## CAD Model
+
