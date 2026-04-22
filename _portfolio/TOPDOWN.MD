@@ -17,6 +17,7 @@ This experience reinforced the importance creating joints after each component i
 
 ## Design
 ### The CAD Model Used for Fabrication 
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028116d39cfa09b4e6f1d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 #### Bar Clamp
 
 When designing this phone mount, I wanted the model to require as little assembly as possible. My goal was to create a design where the detent mechanism and clamp were integrated together.
