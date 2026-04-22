@@ -11,9 +11,9 @@ I used top-down modeling in this design. Top-down modeling describes a Hybrid De
 
 Overall, I found that this approach worked well for creating the overall phone geometry and clamp components. However, during the design process I made a significant mistake. At one point I hid the handlebar component in order to clear the design space while working on the clamp geometry. While this made the modeling environment easier to see temporarily, it ultimately caused a fundamental flaw in the design process: Because the handlebar reference was hidden, the orientation of the phone clamp was unintentionally reversed. This mistake highlights one of the most important lessons from this assignment: in a top-down modeling workflow, all geometry should remain visible and connected.
 
-The final model was submitted for printing in this reversed configuration. As a result, the tested model can only be clamped at the end of the handlebar rather than along its length. In addition, the phone mount is not visible to the bike user in the intended orientation. After completing the final assembly and recognizing this issue, I redesigned the clamp to correct the orientation. 
+The final model was submitted for printing in this reversed configuration. As a result, the tested model can only be clamped at the end of the handlebar. Thus, the phone mount would not be visible to the bike user in the intended orientation. After completing the final assembly and recognizing this issue, I redesigned the clamp to correct the orientation (See final CAD Model).
 
-This experience reinforced the importance of properly maintaining references and creating joints throughout the design process. 
+This experience reinforced the importance creating joints after each component is made.
 
 ## Design
 ### The CAD Model Used for Fabrication 
