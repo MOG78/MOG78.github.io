@@ -36,6 +36,8 @@ The detent mechanism was designed to allow the phone mount to rotate between fix
 
 The mechanism features a flexible ring that interfaces with circular “teeth.” When the knob is rotated, the ring flexes slightly and moves between the teeth, creating discrete positions. I chose to use a ring rather than individual prongs thinking that this would increase the stability of the mechanism. Because the phone adds significant weight to the mount, distributing the force around a continuous ring could help  maintain some structural integrity. The ring also ensures that the detent only disengages when the knob is intentionally rotated, preventing accidental movement of the phone mount.
 
+<img src="/assets/img/detent-photo.png" alt="PLA Print Detent" style="width:400px;"/>
+
 ### The Smarter CAD Model
 
 
