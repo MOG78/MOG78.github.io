@@ -14,7 +14,7 @@ A microfluidic device is a device that manipulates small volumes of liquids on t
 #### Pinched Flow Fractionation 
 In addition to spiral microfluidic designs, several other separation techniques have been explored, including pinched flow fractionation (PFF). PFF describes a specific channel design in which one inlet introduces particle-free fluid and the other inlet contains particles. The particles then enter a pinched segment where the flow is confined, and the resulting force cause particles to align according to size as they enter a broadened section. The dominant mechanism responsible for separation is the laminar flow and streamline displacement due to channel geometry rather than a external force [Source: A comprehensive review of pinch flow fractionation in microfluidics](https://link.springer.com/chapter/10.1007/978-3-662-54357-3_16).
 
-<img src="/assets/img/Schematic-of-working-mechanism-of-pinched-flow-fractionation.png.jpg" alt="print-in place hinge" style="width:400px;"/>
+<img src="/assets/img/Schematic-of-working-mechanism-of-pinched-flow-fractionation.png" alt="pinched-flow" style="width:400px;"/>
 
 *Figure 1. Schematic of particle trajectory in PFF*
 
