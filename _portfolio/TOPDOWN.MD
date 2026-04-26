@@ -6,7 +6,15 @@ excerpt: "Functional phone mount for bike handle bar."
 
 ### Late submission to test with pSLS, but please see design description:
 
-## Introduction: Top-Down Modeling
+## Introduction
+A detent is a simple mechanical feature that uses a spring-loaded ball, pin, or similar element to lock a moving part into discrete positions, providing repeatable positioning with tactile feedback and no need for power. It works by requiring a specific force to push the element out of a shaped notch, and its performance depends heavily on factors like spring force and notch geometry. A detent mechanism can easily  either fail to hold position or become too difficult to move [Source: Firgelli Automations](https://www.firgelliauto.com/blogs/mechanisms/detent). 
+
+<img src="/assets/img/detent-mechanism.jpg" alt="detent-example" style="width:400px;"/>
+
+*Figure 1: Example of Detent Mechanism [Source](https://www.youtube.com/watch?v=QnqAtSeqRPo&time_continue=0&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com)*
+
+
+### Top-Down Modeling
 I used top-down modeling in this design. Top-down modeling describes a Hybrid Design approach in Fusion where a design can be constructed based on projections and existing geometry. This was the second time I used this approach, as I had also used it previously in the Plyer Project. Autodesk more formally defines top-down modeling as a workflow where geometry and relationships are created from higher-level references so that components remain linked to one another throughout the design process. This approach has several advantages, including rapid iteration and prototyping, improved consistency of design, and saved resources due to reduced errors. By projecting geometry and maintaining constraints between components, designers can verify spacing and relationships throughout the modeling process [Source: Autodesk](https://www.autodesk.com/solutions/top-down-modeling?msockid=1185b33029d26c24395da59128176da6).
 
 ### Key Reflection on Top-Down 
@@ -37,7 +45,7 @@ The detent mechanism was designed to allow the phone mount to rotate between fix
 The mechanism features a flexible ring that interfaces with circular “teeth.” When the knob is rotated, the ring flexes slightly and moves between the teeth, creating discrete positions. I chose to use a ring rather than individual prongs thinking that this would increase the stability of the mechanism. Because the phone adds significant weight to the mount, distributing the force around a continuous ring could help  maintain some structural integrity. The ring also ensures that the detent only disengages when the knob is intentionally rotated, preventing accidental movement of the phone mount.
 
 <img src="/assets/img/detent-photo.png" alt="PLA Print Detent" style="width:400px;"/>
-*Figure 1: PLA Print of Detent and Clamp Mechanism*
+*Figure 2: PLA Print of Detent and Clamp Mechanism*
 
 
 ## Manufacturing and Material Choice
@@ -51,12 +59,12 @@ The design was  much better suited for pSLS printing rather than filament printi
 
 I printed the same model on the pSLS printer with no changes, because I wanted to see whether the failure was due to flaws in the model itself or just the manufacturing process. While I was cleaning the powder, I realized that the gaps I had created in Fusion had some sintering of powder within them. This resulted in failure of the detent mechanism, since it could not spin.
 
-When performing a section analysis (Figure 2), it is evident that there are spacings between some of the faces of the detent that should allow it to spin. However, the gap between the ring knob and the circular teeth is definitely too tight (Figure 3). Even with a printing technique that has significantly better resolution than FFF, the model still failed.
+When performing a section analysis (Figure 3), it is evident that there are spacings between some of the faces of the detent that should allow it to spin. However, the gap between the ring knob and the circular teeth is definitely too tight (Figure 4). Even with a printing technique that has significantly better resolution than FFF, the model still failed.
 
 <img src="/assets/img/section-anaylsis1.png" alt="section-analysis" style="width:400px;"/>
 
-*Figure 2: Section Analysis - Perpendicular to Detent Faces*
+*Figure 3: Section Analysis - Perpendicular to Detent Faces*
 
 <img src="/assets/img/section-analysis2.png" alt="section-analysis" style="width:400px;"/>
 
-*Figure 3: Section Analysis - Parallel to Detent Faces*
+*Figure 4: Section Analysis - Parallel to Detent Faces*
