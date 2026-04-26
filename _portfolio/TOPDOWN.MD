@@ -40,13 +40,13 @@ The mechanism features a flexible ring that interfaces with circular â€œteeth.â€
 *Figure 1: PLA Print of Detent and Clamp Mechanism*
 
 
-### Manufacturing and Material Choice
-#### FFF
+## Manufacturing and Material Choice
+### FFF
 For the first and only filament print, I chose PLA. However, the use of support material caused the final design to fail. Initially, I believed I could rely on the technique of bridging, where filament solidifies across gaps without requiring support material. I expected that the geometry of the detent mechanism could be printed using this technique. However, other structures in the clamp required support material. Because the slicer could not regionally select support structures, supports were generated in areas that interfered with other parts of the design, which ultiamtely could not be removed. 
 
 *While the importance of manufacturing constraints during the design process has been emphasized in class, this failure reinforced the concept.*
 
-#### pSLS
+### pSLS
 The design was  much better suited for pSLS printing rather than filament printing. In pSLS printing, powder naturally supports the printed structure and can easily be removed afterward. This eliminates many of the support issues encountered with filament printing. In addition, flexible Nylon would be a better material choice for this design. Nylon has greater flexibility and resilience than PLA, which would allow the clamp arms and detent mechanism to flex and move as intended without breaking.
 
 I printed the same model on the pSLS printer with no changes, because I wanted to see whether the failure was due to flaws in the model itself or just the manufacturing process. While I was cleaning the powder, I realized that the gaps I had created in Fusion had some sintering of powder within them. This resulted in failure of the detent mechanism, since it could not spin.
