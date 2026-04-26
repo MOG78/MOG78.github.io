@@ -32,7 +32,10 @@ When designing this phone mount, I wanted the model to require as little assembl
 
 I designed the clamp mechanism to function similarly to a hose clamp. The user can squeeze the clamp arms together and latch the teeth to secure the mount around the handlebar. This approach allows the mount to attach securely while avoiding the need for additional hardware. One of the biggest considerations in the design was determining the correct clamp width. I needed to determine the optimal point where the clamp could be squeezed easily while still maintaining sufficient holding force on the handlebar. Finding this balance is important because the clamp needs to be flexible enough to install, but rigid enough to prevent movement during use.
 
+The final model can latch together (Figure 2). 
+
 #### Phone Holder
+This feature functions well as intended in the fabricated mdoel. 
 
 The phone holder itself consisted of a stationary base plate and a sliding plate that could be secured using a threaded knob. This configuration allowed the mount to accommodate different phone sizes while still holding the phone securely.The threads of the knob were designed to be large enough to be successfully 3D printed, which helped ensure that the mechanism would function reliably without requiring post-processing. When tightened, the threaded knob presses the sliding plate against the phone, holding it firmly in place.
 
