@@ -21,3 +21,5 @@ An interchangeable edge guard was incorporated into the paddle design to protect
 
 #### Weight and Mass Balance Optimization
 The paddle was printed using PLA with a rectilinear infill pattern. Rectilinear infill was selected because it provides a good balance between print efficiency and keeping the internal structure relatively lightweight. However, the final paddle still felt heavier than a typical commercial pickleball paddle. Commercial paddles often use lightweight materials or hollow core centerss, which significantly reduce weight. Because this paddle was fully printed in PLA, the density of the material contributed to the increased weight. If the design were revised, the weight could be reduced by lowering the infill percentage, incorporating more internal cavities, or using a lighter material. 
+
+<img src="/assets/img/pickle-ball-paddle.png" alt="Manufactured Paddle" style="width:400px;"/>
