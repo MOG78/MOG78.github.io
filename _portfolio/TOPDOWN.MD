@@ -9,6 +9,8 @@ excerpt: "Functional phone mount for bike handle bar."
 ## Introduction: Top-Down Modeling
 I used top-down modeling in this design. Top-down modeling describes a Hybrid Design approach in Fusion where a design can be constructed based on projections and existing geometry. This was the second time I used this approach, as I had also used it previously in the Plyer Project. Autodesk more formally defines top-down modeling as a workflow where geometry and relationships are created from higher-level references so that components remain linked to one another throughout the design process. This approach has several advantages, including rapid iteration and prototyping, improved consistency of design, and saved resources due to reduced errors. By projecting geometry and maintaining constraints between components, designers can verify spacing and relationships throughout the modeling process [Source: Autodesk](https://www.autodesk.com/solutions/top-down-modeling?msockid=1185b33029d26c24395da59128176da6).
 
+### Key Reflection on Top-Down 
+
 Overall, I found that this approach worked well for creating the overall phone geometry and clamp components. However, during the design process I made a significant mistake. At one point I hid the handlebar component in order to clear the design space while working on the clamp geometry. While this made the modeling environment easier to see temporarily, it ultimately caused a fundamental flaw in the design process: Because the handlebar reference was hidden, the orientation of the phone clamp was unintentionally reversed. This mistake highlights one of the most important lessons from this assignment: in a top-down modeling workflow, all geometry should remain visible and connected.
 
 The final model was submitted for printing in this reversed configuration. As a result, the tested model can only be clamped at the end of the handlebar. Thus, the phone mount would not be visible to the bike user in the intended orientation. After completing the final assembly and recognizing this issue, I redesigned the clamp to correct the orientation (See final CAD Model).
@@ -39,14 +41,22 @@ The mechanism features a flexible ring that interfaces with circular â€œteeth.â€
 <img src="/assets/img/detent-photo.png" alt="PLA Print Detent" style="width:400px;"/>
 *Figure 1: PLA Print of Detent and Clamp Mechanism*
 
-### The Smarter CAD Model
-
-
 
 ### Manufacturing and Material Choice
-
+#### FFF
 For the first and only filament print, I chose PLA. However, the use of support material caused the final design to fail. Initially, I believed I could rely on the technique of bridging, where filament solidifies across gaps without requiring support material. I expected that the geometry of the detent mechanism could be printed using this technique. However, other structures in the clamp required support material. Because the slicer could not regionally select support structures, supports were generated in areas that interfered with other parts of the design, which ultiamtely could not be removed. 
 
 *While the importance of manufacturing constraints during the design process has been emphasized in class, this failure reinforced the concept.*
 
+#### pSLS
 The design was  much better suited for pSLS printing rather than filament printing. In pSLS printing, powder naturally supports the printed structure and can easily be removed afterward. This eliminates many of the support issues encountered with filament printing. In addition, flexible Nylon would be a better material choice for this design. Nylon has greater flexibility and resilience than PLA, which would allow the clamp arms and detent mechanism to flex and move as intended without breaking.
+
+I printed the same model on the pSLS printer with no changes, because I wanted to see whether the failure was due to flaws in the model itself or just the manufacturing process. While I was cleaning the powder, I realized that the gaps I had created in Fusion had some sintering of powder within them. This resulted in failure of the detent mechanism, since it could not spin.
+
+When performing a section analysis (Figure 2), it is evident that there are spacings between some of the faces of the detent that should allow it to spin. However, the gap between the ring knob and the circular teeth is definitely too tight (Figure 3). Even with a printing technique that has significantly better resolution than FFF, the model still failed.
+
+<img src="/assets/img/section-analysis1.png" alt="section-analysis" style="width:400px;"/>
+*Figure 2: Section Analysis - Perpendicular to Detent Faces*
+
+<img src="/assets/img/section-analysis2.png" alt="section-analysis" style="width:400px;"/>
+*Figure 3: Section Analysis - Parallel to Detent Faces*
