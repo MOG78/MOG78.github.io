@@ -11,11 +11,9 @@ I used top-down modeling in this design. Top-down modeling describes a Hybrid De
 
 ### Key Reflection on Top-Down 
 
-Overall, I found that this approach worked well for creating the overall phone geometry and clamp components. However, during the design process I made a significant mistake. At one point I hid the handlebar component in order to clear the design space while working on the clamp geometry. While this made the modeling environment easier to see temporarily, it ultimately caused a fundamental flaw in the design process: Because the handlebar reference was hidden, the orientation of the phone clamp was unintentionally reversed. This mistake highlights one of the most important lessons from this assignment: in a top-down modeling workflow, all geometry should remain visible and connected.
+I found that this approach worked well for creating the overall phone geometry and clamp components. However, during the design process I made a significant mistake. At one point I hid the handlebar component in order to clear the design space while working on the clamp geometry. While this made the modeling environment easier to see temporarily, it ultimately caused a fundamental flaw in the design process: Because the handlebar reference was hidden, the orientation of the phone clamp was unintentionally reversed. This mistake highlights one of the most important lessons from this assignment: in a top-down modeling workflow, all geometry should remain visible and connected.
 
-The final model was submitted for printing in this reversed configuration. As a result, the tested model can only be clamped at the end of the handlebar. Thus, the phone mount would not be visible to the bike user in the intended orientation. After completing the final assembly and recognizing this issue, I redesigned the clamp to correct the orientation (See final CAD Model).
-
-This experience reinforced the importance creating joints after each component is made.
+The final model was submitted for printing in this reversed configuration. As a result, the tested model can only be clamped at the end of the handlebar. Thus, the phone mount would not be visible to the bike user in the intended orientation. After completing the final assembly and recognizing this issue, I redesigned the clamp to correct the orientation. This experience reinforced the importance creating joints after each component is made.
 
 ## Design
 ### The CAD Model Used for Fabrication 
@@ -24,7 +22,7 @@ This experience reinforced the importance creating joints after each component i
 
 When designing this phone mount, I wanted the model to require as little assembly as possible. My goal was to create a design where the detent mechanism and clamp were integrated together.
 
-I designed the clamp mechanism to function similarly to a hose clamp. The user can squeeze the clamp arms together and latch the teeth to secure the mount around the handlebar. This approach allows the mount to attach securely while avoiding the need for additional hardware. One of the biggest considerations in the design was determining the correct clamp width. Ideally, I would iterate through multiple clamp widths to determine the optimal point where the clamp could be squeezed easily while still maintaining sufficient holding force on the handlebar. Finding this balance is important because the clamp needs to be flexible enough to install, but rigid enough to prevent movement during use.
+I designed the clamp mechanism to function similarly to a hose clamp. The user can squeeze the clamp arms together and latch the teeth to secure the mount around the handlebar. This approach allows the mount to attach securely while avoiding the need for additional hardware. One of the biggest considerations in the design was determining the correct clamp width. I needed to determine the optimal point where the clamp could be squeezed easily while still maintaining sufficient holding force on the handlebar. Finding this balance is important because the clamp needs to be flexible enough to install, but rigid enough to prevent movement during use.
 
 #### Phone Holder
 
@@ -56,7 +54,9 @@ I printed the same model on the pSLS printer with no changes, because I wanted t
 When performing a section analysis (Figure 2), it is evident that there are spacings between some of the faces of the detent that should allow it to spin. However, the gap between the ring knob and the circular teeth is definitely too tight (Figure 3). Even with a printing technique that has significantly better resolution than FFF, the model still failed.
 
 <img src="/assets/img/section-anaylsis1.png" alt="section-analysis" style="width:400px;"/>
+
 *Figure 2: Section Analysis - Perpendicular to Detent Faces*
 
 <img src="/assets/img/section-analysis2.png" alt="section-analysis" style="width:400px;"/>
+
 *Figure 3: Section Analysis - Parallel to Detent Faces*
