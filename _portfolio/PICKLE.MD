@@ -5,10 +5,9 @@ header:
   teaser: /assets/img/pickle-ball.jpg
 ---
 
-### Attended pizza and pickle ball, finally learning the rules :) 
-### Design
+#### Attended pizza and pickle ball, finally learning the rules :) 
 
-#### CAD Model
+### Design
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028116eff6df497096117?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 #### Pickleball Paddle Design and Game Viability
 The paddle face and overall geometry were created to resemble the size and proportions of standard paddles to maintain usability during play, but at a relatively smaller size to save space on the print bed. The final paddle was printed using PLA and successfully used to hit pickleballs during testing. The structure was able to withstand repeated impacts with the ball. However, the paddle was not tested through a full game of pickleball. 
