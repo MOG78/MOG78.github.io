@@ -55,7 +55,7 @@ I printed the same model on the pSLS printer with no changes, because I wanted t
 
 When performing a section analysis (Figure 2), it is evident that there are spacings between some of the faces of the detent that should allow it to spin. However, the gap between the ring knob and the circular teeth is definitely too tight (Figure 3). Even with a printing technique that has significantly better resolution than FFF, the model still failed.
 
-<img src="/assets/img/section-analysis1.png" alt="section-analysis" style="width:400px;"/>
+<img src="/assets/img/section-anaylsis1.png" alt="section-analysis" style="width:400px;"/>
 *Figure 2: Section Analysis - Perpendicular to Detent Faces*
 
 <img src="/assets/img/section-analysis2.png" alt="section-analysis" style="width:400px;"/>
