@@ -41,6 +41,9 @@ The phone holder itself consisted of a stationary base plate and a sliding plate
 
 To guide the motion of the sliding plate, I designed a groove along the flat side portion of the mount. This groove allowed the plate to slide smoothly while maintaining alignment with the base plate. I also included small offsets at the top of the extruded features to prevent the phone from falling out in the perpendicular direction. 
 
+<img src="/assets/img/phone-clasp.png" alt="phone-holder" style="width:400px;"/>
+*Figure 2: PLA Print of Phone Holder*
+
 #### Detent Mechanism
 
 The detent mechanism was designed to allow the phone mount to rotate between fixed positions without requiring additional components such as springs or bearings.
@@ -48,7 +51,7 @@ The detent mechanism was designed to allow the phone mount to rotate between fix
 The mechanism features a flexible ring that interfaces with circular “teeth.” When the knob is rotated, the ring flexes slightly and moves between the teeth, creating discrete positions. I chose to use a ring rather than individual prongs thinking that this would increase the stability of the mechanism. Because the phone adds significant weight to the mount, distributing the force around a continuous ring could help  maintain some structural integrity. The ring also ensures that the detent only disengages when the knob is intentionally rotated, preventing accidental movement of the phone mount.
 
 <img src="/assets/img/detent-photo.png" alt="PLA Print Detent" style="width:400px;"/>
-*Figure 2: PLA Print of Detent and Clamp Mechanism*
+*Figure 3: PLA Print of Detent and Clamp Mechanism*
 
 
 ## Manufacturing and Material Choice
@@ -62,12 +65,12 @@ The design was  much better suited for pSLS printing rather than filament printi
 
 I printed the same model on the pSLS printer with no changes, because I wanted to see whether the failure was due to flaws in the model itself or just the manufacturing process. While I was cleaning the powder, I realized that the gaps I had created in Fusion had some sintering of powder within them. This resulted in failure of the detent mechanism, since it could not spin.
 
-When performing a section analysis (Figure 3), it is evident that there are spacings between some of the faces of the detent that should allow it to spin. However, the gap between the ring knob and the circular teeth is definitely too tight (Figure 4). Even with a printing technique that has significantly better resolution than FFF, the model still failed.
+When performing a section analysis (Figure 4), it is evident that there are spacings between some of the faces of the detent that should allow it to spin. However, the gap between the ring knob and the circular teeth is definitely too tight (Figure 5). Even with a printing technique that has significantly better resolution than FFF, the model still failed.
 
 <img src="/assets/img/section-anaylsis1.png" alt="section-analysis" style="width:400px;"/>
 
-*Figure 3: Section Analysis - Perpendicular to Detent Faces*
+*Figure 4: Section Analysis - Perpendicular to Detent Faces*
 
 <img src="/assets/img/section-analysis2.png" alt="section-analysis" style="width:400px;"/>
 
-*Figure 4: Section Analysis - Parallel to Detent Faces*
+*Figure 5: Section Analysis - Parallel to Detent Faces*
