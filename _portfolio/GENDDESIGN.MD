@@ -87,8 +87,7 @@ GIF showing pulley, belt, and wheel motion.
 
 ## Discussion
 ### Load Case Development
-Explain how forces were determined, what assumptions were made, and how the applied loads represent real-world conditions. Discuss potential improvements.
-
+Rider weight wass applied as a bearing load at the axle, turning was modeled as lateral forces, and motor actuation was represented using torque and belt tension on both the motor shaft and axle based on the motor specifications. These loads assume steady state equivalents of dynamic effects such as carving and impacts, and the kingpin region was treated as a fixed constraint. This approach captures the main failure modes including bending from rider weight, torsion from turning, and combined loading from the motor, but it simplifies changing conditions such as fluctuating belt tension and more transient motion. Improvements lie in better modeling of belt tension by separating tight and slack belt forces and accounting for changes during acceleration and braking. ChatGPT was used to help estimate reasonable force values and check their validity, but a more accurate model would incorporate experimental data from the pulley and belt system along with more realistic simulations, sucha as finite element anaylsis. 
 ---
 
 ### Generative Design and Powder Bed Fusion
