@@ -7,19 +7,23 @@ excerpt: "Generative Design Skateboard Truck Hanger + Motor Mount."
 The objective of this project is to use generative design to develop a lightweight skateboard truck hanger with an integrated motor mount. The design aims to minimize mass while maintaining structural integrity, with a safety factor of 2, and consolidating separate components into a single structure.
 
 ---
-
-## Generative Design Outputs
-
-### 17-4 PH Stainless Steel Solution
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811f11cfa81edeae9a1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
-
-### AlSi10Mg Solution
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028114cfd36941aaab1b5?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
-
 ### Generative Design Study (Obstacle and Preserve Geometry Present) 
+### Inputs
+- Safety Factor: 2  
+- Materials: AlSi10Mg, 17-4 PH Stainless Steel  
+- Manufacturing: Unrestricted 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b6d883a4dd3cac0f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 
 ---
+
+### Generative Design Outputs
+
+#### 17-4 PH Stainless Steel Solution
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811f11cfa81edeae9a1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+#### AlSi10Mg Solution
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028114cfd36941aaab1b5?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
 
 ### Final Assembly Rendering
 
