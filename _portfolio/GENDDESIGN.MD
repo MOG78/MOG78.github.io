@@ -37,7 +37,7 @@ Rendering of the complete longboard assembly with Stainless Steel generative des
 Rendering of the complete longboard assembly with Aluminum generative design truck.
 
 <div style="display:flex; gap:10px;">
-  <img src="/assets/img/assembly_render_AL.png" alt="assembly-render-al-front" style="width:400px;"/>
+  <img src="/assets/img/final_assembly_AL.png" alt="assembly-render-al-front" style="width:400px;"/>
   <img src="/assets/img/assembly_render_TOP.png" alt="assembly-render-al-top" style="width:400px;"/>
 </div>
 
