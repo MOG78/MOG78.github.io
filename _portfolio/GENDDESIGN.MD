@@ -24,7 +24,7 @@ The objective of this project is to use generative design to develop a lightweig
 ## Final Assembly Rendering
 
 ### 17-4 PH Stainless Steel  
-Rendering of the complete longboard assembly with Stainless Steel generative design trucks.
+Rendering of the complete longboard assembly with Stainless Steel generative design truck.
 
 <div style="display:flex; gap:10px;">
   <img src="/assets/img/assembly_render.png" alt="assembly-render-steel-front" style="width:400px;"/>
@@ -34,7 +34,7 @@ Rendering of the complete longboard assembly with Stainless Steel generative des
 ---
 
 ### AlSi10Mg Solution  
-Rendering of the complete longboard assembly with Aluminum generative design trucks.
+Rendering of the complete longboard assembly with Aluminum generative design truck.
 
 <div style="display:flex; gap:10px;">
   <img src="/assets/img/assembly_render_AL.png" alt="assembly-render-al-front" style="width:400px;"/>
