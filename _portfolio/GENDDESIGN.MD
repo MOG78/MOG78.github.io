@@ -7,8 +7,7 @@ o A rendering of the completed longboard assembly with the generative design
 trucks. 
 • Real life images of the pSLS printed model alone and attached to the longboard deck.  
 o Due to pSLS being a batch process, I have to print multiple trucks at a time. 
-Please see the BrightSpace assignment details for when you must submit the 
-CAD model to have it printed by the end of the semester.  
+
 • Two GIFs of the truck installed on the deck: 
 o Turning – showing there is enough clearance around the pivot point for the truck 
 to turn. 
