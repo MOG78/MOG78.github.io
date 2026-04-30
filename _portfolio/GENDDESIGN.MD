@@ -86,21 +86,23 @@ GIF showing pulley, belt, and wheel motion.
 ## Discussion
 ### Load Case Development
 Rider weight wass applied as a bearing load at the axle, turning was modeled as lateral forces, and motor actuation was represented using torque and belt tension on both the motor shaft and axle based on the motor specifications. The kingpin region was treated as a fixed constraint These loads assume steady state equivalents of dynamic events such as carving and impacts. This approach captures the main failure modes including bending from rider weight, torsion from turning, and combined loading from the motor, but it simplifies changing conditions such as fluctuating belt tension and more transient motion. Improvements lie in better modeling of belt tension by separating tight and slack belt forces and accounting for changes during acceleration and braking. ChatGPT was used to help estimate reasonable force values and check their validity, but a more accurate model would incorporate experimental data from the pulley and belt system along with more realistic simulations, sucha as finite element anaylsis. 
+
 ---
 
 ### Generative Design and Powder Bed Fusion
-Discuss the relationship between generative design and additive manufacturing. Include a real-world example from aerospace or automotive where generative design reduced part count. Provide a citation as a hyperlink.
+AI is transforming CAD by turning it from a manual drafting process into a predictive and iterative process, including the tool of generative design. This tool allows engineers to set goals like weight, strength, and manufacturability while software generates efficient and optimal design options. 
+
+A real-world example of this is work done by General Motors, which applies generative design and additive manufacturing to automotive components. In collaboration with Autodesk, GM redesigned a seat bracket into a single optimized part that replaced multiple welded components. The new design was about 40 percent lighter and 20 percent stronger while also reducing assembly complexity and supply chain needs. This demonstrates how generative design is already being used in production engineering to improve efficiency and performance.
 
 ---
 
-
 ### Material Comparison: AlSi10Mg vs 17-4 PH
-Compare the resulting geometries, mass, stiffness, and load paths. Explain how material properties influenced the design.
+The AlSi10Mg and 17-4 PH results differ primarily due to their material properties, especially stiffness, strength, and density. AlSi10Mg has a lower Young’s modulus (70 GPa) and lower yield strength (200–300 MPa) compared to 17-4 PH stainless steel (200 GPa modulus and 900–1100 MPa yield strength), which caused the generative design to produce a bulkier, more “inflated” geometry to satisfy the required safety factor of 2. In contrast, the 17-4 PH design was more compact and structurally efficient because its higher stiffness and strength allowed it to resist deformation with less material. These differences also affected loaading paths, with aluminum spreading stresses through larger regions to maintain stability, while stainless steel formed more direct and defined connections between the axle, pivot, and motor mount.
 
 ---
 
 ### Critique of Generative Design
-Discuss advantages, limitations, and appropriate applications of generative design. Consider manufacturability, interpretability, and reliability.
+For this assignment, generative design was challenging mainly because it is difficult to fully understand and define realistic force inputs and how they translate into actual riding conditions. While the workflow itself is relatively straightforward, the quality of the final design is highly dependent on how well the loads and constraints are defined, which requires strong engineering judgment and system-level understanding. The obstacle geometry feature is very useful for protecting critical interfaces, but it must be used generously; otherwise, the algorithm tends to overcompensate by growing material into areas that should remain clear. Overall, the process works well when guided properly, but it is sensitive to setup decisions. It would be beneficial to integrate more built-in guidance or AI-based context, such as prompting the system with application-specific information like “this is a skateboard truck and must withstand carving, impact, and motor-driven torque,” to help generate more realistic and application-aware results.
 
 ---
 
