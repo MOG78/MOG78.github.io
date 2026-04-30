@@ -53,7 +53,7 @@ Rendering of the complete longboard assembly with Aluminum generative design tru
 
 ### Installation Clearance 
 
-<img src="/assets/img/install.MOV" alt="installation-clearance" style="width:400px;"/>
+<img src="/assets/img/install_real.gif" alt="installation-clearance" style="width:400px;"/>
 
 ---
 
@@ -61,11 +61,11 @@ Rendering of the complete longboard assembly with Aluminum generative design tru
 
 ### Turning Clearance
 GIF showing the truck rotating about the pivot without interference.  
-<img src="/assets/img/turning.MOV" alt="turning-clearance" style="width:400px;"/>
+<img src="/assets/img/turning_real.gif" alt="turning-clearance" style="width:400px;"/>
 
 ### Motor and Belt Rotation
 GIF showing pulley, belt, and wheel motion.  
-<img src="/assets/img/motor.MOV" alt="motor-rotation" style="width:400px;"/>
+<img src="/assets/img/motor_real.gif" alt="motor-rotation" style="width:400px;"/>
 
 ---
 
