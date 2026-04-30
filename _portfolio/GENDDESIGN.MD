@@ -4,7 +4,7 @@ excerpt: "Generative Design Skateboard Truck Hanger + Motor Mount."
 ---
 
 ## Project Overview
-Provide a brief description of the project, its objective, and what was designed. Mention the integration of the hanger and motor mount and the goal of minimizing mass while maintaining structural integrity.
+The objective of this project is to use generative design to develop a lightweight skateboard truck hanger with an integrated motor mount. The design aims to minimize mass while maintaining structural integrity, with a safety factor of 2, and consolidating separate components into a single structure.
 
 ---
 
@@ -22,8 +22,24 @@ Provide a brief description of the project, its objective, and what was designed
 ---
 
 ## Final Assembly Rendering
-Rendering of the complete longboard assembly with Stainless Steel generative design trucks.  
-<img src="/assets/img/assembly_render.png" alt="assembly-render" style="width:400px;"/>
+
+### 17-4 PH Stainless Steel  
+Rendering of the complete longboard assembly with Stainless Steel generative design trucks.
+
+<div style="display:flex; gap:10px;">
+  <img src="/assets/img/assembly_render.png" alt="assembly-render-steel-front" style="width:400px;"/>
+  <img src="/assets/img/assembly_render_STEEL_TOP.png" alt="assembly-render-steel-top" style="width:400px;"/>
+</div>
+
+---
+
+### AlSi10Mg Solution  
+Rendering of the complete longboard assembly with Aluminum generative design trucks.
+
+<div style="display:flex; gap:10px;">
+  <img src="/assets/img/assembly_render_AL.png" alt="assembly-render-al-front" style="width:400px;"/>
+  <img src="/assets/img/assembly_render_TOP.png" alt="assembly-render-al-top" style="width:400px;"/>
+</div>
 
 ---
 
