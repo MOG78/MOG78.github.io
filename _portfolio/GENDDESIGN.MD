@@ -1,4 +1,7 @@
-# Generative Design Skateboard Truck Hanger + Motor Mount
+---
+title: "Additive Manufacturing Project 4:  Generative Design"
+excerpt: "Generative Design Skateboard Truck Hanger + Motor Mount."
+---
 
 ## Project Overview
 Provide a brief description of the project, its objective, and what was designed. Mention the integration of the hanger and motor mount and the goal of minimizing mass while maintaining structural integrity.
@@ -29,10 +32,14 @@ Rendering of the complete longboard assembly with Stainless Steel generative des
 ### Printed Truck (Standalone)
 ![Printed Truck](/assets/img/printed_truck_front.png)
 
-### Mounted on Longboard Deck
+### Mounted on Skatebboard Deck
 ![Mounted Truck](/assets/img/mounted_truck.png)
 
+### Installation  Clearance 
+![Mounted Truck](/assets/img/install.gif)
+
 ---
+
 
 ## Motion Validation
 
