@@ -55,6 +55,7 @@ The objective of this project is to use generative design to develop a lightweig
 
 ### Installation Clearance 
 GIF showing clearance of the truck for easy installation (no interferences). 
+
 <img src="/assets/img/install_real.gif" alt="installation-clearance" style="width:400px;"/>
 
 ---
@@ -63,10 +64,12 @@ GIF showing clearance of the truck for easy installation (no interferences).
 
 ### Turning Clearance
 GIF showing the truck rotating about the pivot without interference.  
+
 <img src="/assets/img/turning_real.gif" alt="turning-clearance" style="width:400px;"/>
 
 ### Motor and Belt Rotation
 GIF showing pulley, belt, and wheel motion.  
+
 <img src="/assets/img/motor_real.gif" alt="motor-rotation" style="width:400px;"/>
 
 ---
